@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import TodoForm from './components/todoForm'
 import TodoItem from './components/todoItem'
@@ -14,10 +13,7 @@ function App() {
             <TodoForm />
           </div>
           <div className='content-div'>
-            <TodoItem />
-            <TodoItem />
-            <TodoItem />
-            <TodoItem />
+            <TodoItem/>
           </div>
         </div>
       </div>
